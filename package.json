@@ -1,0 +1,10 @@
+{
+  "name": "comic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BLHXFY-Group/comic.git",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.6"
+  }
+}
