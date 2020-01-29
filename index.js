@@ -21,7 +21,7 @@ const moveComic = async () => {
     if (!rgs) {
       return
     }
-    let id = rgs[1]
+    let id = parseInt(rgs[1])
     let ename = rgs[3]
     data.set(id, ename || '')
     await fs.copy(pic, `./dist/4ko/${id}.jpg`)
