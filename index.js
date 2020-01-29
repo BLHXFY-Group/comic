@@ -33,6 +33,7 @@ const start = async () => {
   await cleanDist()
   await fs.ensureDir('./dist/4ko/')
   await moveComic()
+  fs.outputFile('./dist/CNAME', '4.danmu9.com')
 }
 
 start()
